@@ -1,0 +1,113 @@
+h1 {
+    text-align: center;
+    font-size: 100px;
+    font-family: sans-serif
+}
+
+.box {
+    background-color: aqua;
+    margin: 0 auto;
+    width: 90%;
+    height: 63vh;
+    position: relative;
+
+}
+
+.bux {
+    margin: 0 auto;
+
+    width: 80%;
+}
+
+.box b {
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #999999;
+    position: absolute;
+    -webkit-animation: moveX 2s linear 0s infinite alternate, moveY 3.4s linear 0s infinite alternate;
+    -moz-animation: moveX 2s linear 0s infinite alternate, moveY 3.4s linear 0s infinite alternate;
+    -o-animation: moveX 2s linear 0s infinite alternate, moveY 3.4s linear 0s infinite alternate;
+    animation: moveX 2s linear 0s infinite alternate, moveY 3.4s linear 0s infinite alternate;
+}
+
+@-webkit-keyframes moveX {
+    from {
+        left: 0;
+    }
+
+    to {
+        left: 91%;
+    }
+}
+
+@-moz-keyframes moveX {
+    from {
+        left: 0;
+    }
+
+    to {
+        left: 91%;
+    }
+}
+
+@-o-keyframes moveX {
+    from {
+        left: 0;
+    }
+
+    to {
+        left: 91%;
+    }
+}
+
+@keyframes moveX {
+    from {
+        left: 0;
+    }
+
+    to {
+        left: 91%;
+    }
+}
+
+@-webkit-keyframes moveY {
+    from {
+        top: 0;
+    }
+
+    to {
+        top: 77%;
+    }
+}
+
+@-moz-keyframes moveY {
+    from {
+        top: 0;
+    }
+
+    to {
+        top: 77%;
+    }
+}
+
+@-o-keyframes moveY {
+    from {
+        top: 0;
+    }
+
+    to {
+        top: 77%;
+    }
+}
+
+@keyframes moveY {
+    from {
+        top: 0;
+    }
+
+    to {
+        top: 77%;
+    }
+}
